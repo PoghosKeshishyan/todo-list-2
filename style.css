@@ -1,0 +1,41 @@
+*{
+    padding: 0; margin: 0;
+    border: none; outline: none;
+    box-sizing: border-box;
+    transition:  all .5s linear;
+}
+
+body{
+    background-image: linear-gradient(to right, gray, white);
+}
+
+.main{
+    width: 400px;
+    margin: 100px auto;
+    text-align: center;
+}
+.todo{
+    background: coral;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: .5rem;
+}
+
+.todo .fa-check{
+    color: green;
+    cursor: pointer;
+}
+
+.todo .fa-trash{
+    color: red;
+    cursor: pointer;
+}
+
+.complated{
+    background-color: gray;
+}
+
+.fall{
+    transform: translateY(8rem) rotate(20deg);
+}
